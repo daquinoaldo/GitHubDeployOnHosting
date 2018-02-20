@@ -1,4 +1,4 @@
-# GitHub Deploy on web Hosting
+# Git Deploy on web Hosting
 Deploy your GitHub project on your web server with one click using PHP (no bash or ssh is required).   
 **It works only with public repository.**
 

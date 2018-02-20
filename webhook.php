@@ -2,16 +2,16 @@
   /* CONFIGURATIONS */
 
   // URL of the project you want to update with webhook
-  $project_url = "https://github.com/daquinoaldo/GitDeployOnHosting";
+  $project_url = "https://github.com/daquinoaldo/git-deploy-on-hosting";
 
   // PATH in which to deploy (ABSOLUTE!)
-  $folder = "/myprojects/GitDeployOnHosting";
+  $folder = "/myprojects/git-deploy-on-hosting";
 
-  // PATH of the GitDeployOnHosting index.php file
+  // PATH of the git-deploy-on-hosting index.php file
   // Must NOT include index.php, start with http (or https) and end with "/"
   $gdoh_path = "https://mydomain.com/deploy/";
 
-  // Username and password of GitDeployOnHosting
+  // Username and password of git-deploy-on-hosting
   $username = "iamtheadmin";
   $password = "yesitsme";
 

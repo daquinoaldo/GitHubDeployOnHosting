@@ -25,6 +25,7 @@
   }
   </style>
   <?php
+  // Generate .htaccess at first access
   if (!file_exists(".htaccess")) {
     if (isset($_POST[username]) && isset($_POST[password]) && isset($_POST[password2])) {
       $username = htmlentities($_POST['username'], ENT_QUOTES);
@@ -56,7 +57,7 @@
       <input type="submit" value="Done!">
     </form>
 <?php }
-  } else {
+  } else {  // Deploy
     // VALUE PARSING
     $url = htmlentities($_GET[url], ENT_QUOTES);
     $folder = htmlentities($_GET[folder], ENT_QUOTES);

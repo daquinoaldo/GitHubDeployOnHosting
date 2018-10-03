@@ -8,8 +8,8 @@ Visit the page and choose an username and a password: an .htaccess file will be 
 Follow the instructions to deploy your project.   
 
 ## Webhook support
-**You can use thw webhook.php script for the GitHub Webhooks.**   
+**You can use the webhook.php script for the GitHub Webhooks.**   
 First follow the "How to use" instructions.   
 Then edit the script and change the variables as explained in the comments in the file.   
 Upload it wherever you want, but not in the same folder of index.php.   
-Visiting this page will be made the automatic deploy of the repository chosen in the chosen path.
+Visiting this page will be update the deployed repository in the chosen path.
